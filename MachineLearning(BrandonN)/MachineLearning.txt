@@ -1,0 +1,30 @@
+Machine Learning Lab
+
+1) Describe the difference between “supervised” and “unsupervised” learning in your
+own words.
+Supervised learning is done with training and then tests to see if the training was successfull.
+Unsupervised learning is done with just training and no tests. In the excerises we did,
+we used supervised learning as we took a set of data we knew the "answer" to and tested to
+see if our "learning" was successful
+
+2) What is the difference between a training set and a testing set?
+A training set is used by the program to teach the machine what it is looking for
+A testing set is used to test if the learning was successful and if so, by how much.
+
+3) What is the default data type cast in scikit-learn?
+The default data type case is a .data
+
+4) If n_samples == 5300, storing X as a numpy array of type float32 would require
+how much RAM?
+5300 * 100,000 * 4 byte = 2.12 x10^9 Bytes or 2.12 GB
+
+
+5) What is a classifier? What is the advantage of using a simple classifier, like a “Naive
+Bayes” classifier? 
+A classifier is way to classify multiple types of objects in order to learn. It takes in
+a set of data then uses its baseline to tell the machine what object is what. 
+
+The advantage of using a simple classifier is speed. The Naive Bayes calssifier is much faster
+than more advanced versions. Additionally, it can be used with few data points.
+
+

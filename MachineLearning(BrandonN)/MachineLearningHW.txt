@@ -1,0 +1,24 @@
+1) What do we call the technique of taking information we have about our problem (that is not
+numerical) and turning it into numbers to use to build a feature matrix?
+-Feature Engineering
+
+2) What is one reason to start with a Naive Bayes model as your initial model when trying to
+create a classifier?
+-The Naive Bayes model is both fast and simple. Due to this, the speed is useful for an initial model
+but it also has many parameters that can be tuned toward your specific problem. This allows it to
+be a great starting point for many classifiers.
+
+
+3) What model might you use to try and evaluate the data represented below? Why?
+-I would use a k-means clustering model. This would take the points on the graph and
+look for a pre-determine number of clusters in a unlabeled dataset. This is useful for the data
+above since we can tell the machine that there are four clusters.
+
+4) Explain one limitation or drawback to using machine learning techniques to analyze data.
+-The biggest limitation is the need for training sets. This can often require a large set of data that
+would be unavailable to us. 
+
+5) What is an astronomical question that one could use machine learning to study? (State the
+question and explain briefly)
+-Machine learning can be used to identify transits. Since we have a large amount of data from surveys, we can input that data
+into a machine and let it look for transits (which would see dips in intensity from the light of a star). 
